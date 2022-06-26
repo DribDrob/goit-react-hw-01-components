@@ -1,15 +1,20 @@
 import PropTypes from 'prop-types';
+import css from './Statistics.module.css';
 
 export const Statistics = ({ title, stats }) => {
   return (
-    <section class="statistics">
-      {title && <h2 class="title">{title}</h2>}
+    <section className={css.section}>
+      {title && <h2 className={css.title}>{title}</h2>}
 
-      <ul class="stat-list">
+      <ul className={css.statList}>
         {stats.map(({ id, label, percentage }) => (
-          <li class="item" key={id}>
-            <span class="label">{label}</span>
-            <span class="percentage">{percentage}%</span>
+          <li
+            className={css.statItem}
+            style={{ backgroundColor: `${getRandomHexColor()}` }}
+            key={id}
+          >
+            <span className={css.statItemLabel}>{label}</span>
+            <span className={css.statItemPercent}>{percentage}%</span>
           </li>
         ))}
       </ul>
@@ -27,7 +32,6 @@ Statistics.propTypes = {
     })
   ),
 };
-// function getRandomHexColor() {
-//   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-// }
-// Цвет фона элемента статистики в оформлении можно пропустить, либо создать функцию для генерации случайного цвета.
+function getRandomHexColor() {
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+}
