@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-
 .table {
-  box-sizing: border-box;
   color: #220f5f;
-  font-family: 'Poppins', sans-serif;
   width: 100%;
   max-width: 500px;
   padding: 0 10px;
   margin: 0 auto; 
-  margin-top: 70px;
+  margin-top: 64px;
   border-collapse: collapse;
 }
 
@@ -26,7 +22,6 @@
 .tableData {
   border: 1px solid #bbbbbb;
   text-align: right;
-   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   background-color: transparent;
   padding: 12px 12px; 

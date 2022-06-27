@@ -1,33 +1,33 @@
-.item{
-display: flex;
-justify-content: left;
-align-items: center;
-margin: 0px 0px 15px;
-border: 2px solid rgba(71, 64, 173, 0.582);
-padding: 10px 20px;
-border-radius: 5px;
-max-width: 200px;
-box-shadow: 8px 14px 20px -6px  rgba(0,0,0,0.54);
+.item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0px 0px 15px;
+  border: 2px solid rgba(71, 64, 173, 0.582);
+  padding: 10px 20px;
+  border-radius: 5px;
+  min-width: 180px;
+  box-shadow: 8px 14px 20px -6px rgba(0, 0, 0, 0.54);
 }
 
-.onlineStatus{
-width: 15px;
-height: 15px;
-margin-right: 20px;
-border-radius: 50%;
-background-color: green;
+.onlineStatus {
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: green;
 }
-.offlineStatus{
-width: 15px;
-height: 15px;
-margin-right: 20px;
-border-radius: 50%;
- background-color: rgb(206, 0, 0);   
+.offlineStatus {
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: rgb(206, 0, 0);
 }
-.avatar{
-box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
-margin-right: 20px;
+.avatar {
+  box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, 0.2);
+  margin-right: 20px;
 }
 .friendName {
-margin: 0;
+  margin: 0;
 }
