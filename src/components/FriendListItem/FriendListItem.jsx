@@ -1,15 +1,14 @@
 import PropTypes from 'prop-types';
-import css from './FriendListItem.module.css';
+// import css from './FriendListItem.module.css';
+import { Item, OnlineStatus, Avatar, Name } from './FriendListItem.styled';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <li className={css.item}>
-      <span className={isOnline ? css.onlineStatus : css.offlineStatus}>
-        {isOnline}
-      </span>
-      <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
-      <p className={css.friendName}>{name}</p>
-    </li>
+    <Item>
+      <OnlineStatus isOnline={isOnline}>{isOnline}</OnlineStatus>
+      <Avatar src={avatar} alt="User avatar" width="48" />
+      <Name>{name}</Name>
+    </Item>
   );
 };
 
@@ -18,5 +17,3 @@ FriendListItem.propTypes = {
   name: PropTypes.string.isRequired,
   isOnline: PropTypes.bool.isRequired,
 };
-
-// В зависимости от пропа isOnline, должен меняться цвет фона span.status. Это можно сделать через разный CSS-класс или Styled Components.

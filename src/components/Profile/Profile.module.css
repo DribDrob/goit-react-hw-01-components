@@ -1,14 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-
-body {
-  background-color: rgb(241, 241, 241);
-  font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
-}
-li {
-  list-style: none;
-}
-.profile {
+/* .profile {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
@@ -19,12 +9,12 @@ li {
   align-items: center;
   text-align: center;
   font-size: 16px;
-}
-.description {
+} */
+/* .description {
   background-color: #fff;
   padding: 10px;
-}
-.description p:not(:last-child) {
+} */
+/* .description p:not(:last-child) {
   margin: 0;
   margin-bottom: 8px;
 }
@@ -62,4 +52,4 @@ li {
 }
 .label {
   margin-bottom: 5px;
-}
+} */

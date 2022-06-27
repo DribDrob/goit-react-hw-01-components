@@ -1,4 +1,4 @@
-.item {
+/* .item {
   display: flex;
   justify-content: left;
   align-items: center;
@@ -8,9 +8,9 @@
   border-radius: 5px;
   min-width: 180px;
   box-shadow: 8px 14px 20px -6px rgba(0, 0, 0, 0.54);
-}
+} */
 
-.onlineStatus {
+/* .onlineStatus {
   width: 15px;
   height: 15px;
   margin-right: 20px;
@@ -23,11 +23,8 @@
   margin-right: 20px;
   border-radius: 50%;
   background-color: rgb(206, 0, 0);
-}
-.avatar {
-  box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, 0.2);
-  margin-right: 20px;
+} */
+/* .avatar {
 }
 .friendName {
-  margin: 0;
-}
+} */
